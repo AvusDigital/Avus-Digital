@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Avus Digital</title>
+<meta name="description" content="Sites, branding e presença digital para empresas que querem vender mais. Design, Branding e Web.">
+<meta name="theme-color" content="#F3F3EE">
+<meta property="og:title" content="Avus Digital">
+<meta property="og:description" content="Sites, branding e presença digital para empresas que querem vender mais.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230C0D0E'/%3E%3Cpath d='M11 8h13l-4 16H7z' fill='%233DBB7E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<script>document.documentElement.classList.add('js');</script>
+
+<!--
+  =====================================================================
+  COMO TROCAR AS FOTOS (leia isso primeiro)
+  =====================================================================
+  Coloque as imagens nestas pastas, ao lado deste index.html:
+
+    img/cases/lhl.jpg        -> LHL Escritório
+    img/cases/b1.jpg         -> B1 Motors
+    img/cases/oceans.jpg     -> Agência Oceans
+    img/cases/vg.jpg         -> VG Soluções Financeiras
+    img/cases/gpfilms.jpg    -> GP Film's
+
+    img/lab/cafe.jpg         -> Avus Café
+    img/lab/beauty.jpg       -> Avus Beauty
+    img/lab/realty.jpg       -> Avus Realty
+    img/lab/ink.jpg          -> Avus Ink
+    img/lab/law.jpg          -> Avus Law
+    img/lab/fit.jpg          -> Avus Fit
+    img/lab/razor.jpg        -> Avus Razor
+
+    design/design1.png ... design9.png  -> galeria "Design Portfolio"
+    (os mesmos nomes que você já usa hoje; a seção só aparece se as imagens existirem)
+
+  Dica: use prints do site em proporção 16:10 (ex.: 1600x1000 px), em .jpg ou .webp.
+  Se quiser outro nome de arquivo ou formato, troque o src="" do <img> correspondente.
+  Enquanto a foto não existir, o card mostra o monograma colorido (nada quebra).
+  =====================================================================
+-->
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="topbar" id="topbar">
+  <div class="wrap">
+    <a class="logo" href="#inicio" aria-label="Avus Digital, início"><i></i>AVUS<span>DIGITAL</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#cases">Cases</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#lab">Avus Lab</a>
+      <a href="#planos">Planos</a>
+      <a href="#processo">Processo</a>
+    </nav>
+    <a class="btn btn-green" href="https://wa.me/5511957767799?text=Ol%C3%A1!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow rise" style="--d:.05s">Design • Branding • Web</span>
+        <h1 class="rise" style="--d:.15s">Seu negócio com cara de quem <em>vende mais</em>.</h1>
+        <p class="lead rise" style="--d:.3s">Criamos sites, marcas e presença digital para empresas que querem passar mais confiança, ser encontradas e transformar visita em cliente.</p>
+        <div class="hero-cta rise" style="--d:.45s">
+          <a class="btn btn-green" href="https://wa.me/5511957767799?text=Ol%C3%A1!%20Quero%20iniciar%20um%20projeto%20com%20a%20Avus." target="_blank" rel="noopener">Quero meu projeto <span class="arr">↗</span></a>
+          <a class="btn btn-ghost" href="#cases">Ver trabalhos</a>
+        </div>
+        <div class="proof rise" style="--d:.6s">
+          <div><b data-count="5" data-dec="1">5.0</b><span class="stars">★★★★★</span></div>
+          <div><b data-count="25">25</b><span>avaliações no Google</span></div>
+          <div><b data-count="10" data-prefix="+">+10</b><span>projetos entregues</span></div>
+        </div>
+      </div>
+      <div class="stage rise" style="--d:.35s" id="stage" aria-hidden="true">
+        <div class="browser" id="browser">
+          <div class="browser-bar"><i></i><i></i><i></i><span>suaempresa.com.br</span></div>
+          <div class="mock">
+            <div class="mock-nav"><b></b><div><i></i><i></i><i></i></div></div>
+            <div class="mock-hero"><div class="l1"></div><div class="l2"></div><div class="l3"></div><div class="pill"></div></div>
+            <div class="mock-cards"><div></div><div></div><div></div></div>
+          </div>
+        </div>
+        <div class="chip c2"><span class="dot"></span>Site no ar</div>
+        <div class="chip c1"><span class="dot"></span>Resposta rápida</div>
+      </div>
+    </div>
+  </section>
+  <div class="check" aria-hidden="true"></div>
+
+  <!-- ===================== CASES REAIS ===================== -->
+  <section class="band" id="cases">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Cases reais</span>
+        <h2 class="reveal" style="--d:.08s">Projetos que viraram presença digital.</h2>
+        <p class="lead reveal" style="--d:.16s">Sites no ar, de empresas de verdade. Abra um e veja como ficou.</p>
+      </div>
+      <div class="cases">
+        <a class="case reveal" style="--d:0s" href="https://www.lhlescritorio.com.br/" target="_blank" rel="noopener">
+          <div class="thumb t1"><span class="mono">LHL</span><img src="img/cases/lhl.png" alt="Prévia do site LHL Escritório" loading="lazy" onerror="this.remove()"></div>
+          <div class="body"><span class="tag">Escritório</span><h3>LHL Escritório</h3><span class="dom">lhlescritorio.com.br</span><span class="go">Ver site <i>↗</i></span></div>
+        </a>
+        <a class="case reveal" style="--d:.2s" href="https://agencia-oceans.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb t3"><span class="mono">OC</span><img src="img/cases/oceans.png" alt="Prévia do site Agência Oceans" loading="lazy" onerror="this.remove()"></div>
+          <div class="body"><span class="tag">Agência</span><h3>Agência Oceans</h3><span class="dom">agencia-oceans.vercel.app</span><span class="go">Ver site <i>↗</i></span></div>
+        </a>
+        <a class="case reveal" style="--d:.1s" href="https://vg-solucoesfinanceiras.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb t4"><span class="mono">Arpint</span><img src="img/cases/arpint.png" alt="Prévia do site VG Soluções Financeiras" loading="lazy" onerror="this.remove()"></div>
+          <div class="body"><span class="tag">Arpint</span><h3>Equipamentos de Pintura</h3><span class="dom">arpint.vercel.app</span><span class="go">Ver site <i>↗</i></span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS + OFERTAS ===================== -->
+  <section class="band" id="servicos" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">O que fazemos</span>
+        <h2 class="reveal" style="--d:.08s">Mais do que um site bonito. Um site que trabalha por você.</h2>
+      </div>
+      <div class="services">
+        <div class="svc reveal" style="--d:0s"><h3>Design de interfaces</h3><p>Telas claras, modernas e pensadas para o cliente chegar rápido no que importa: pedir orçamento, comprar, chamar no WhatsApp.</p></div>
+        <div class="svc reveal" style="--d:.1s"><h3>Branding e identidade</h3><p>Logo, cores e linguagem que fazem sua marca parecer do tamanho do que você entrega.</p></div>
+        <div class="svc reveal" style="--d:.2s"><h3>Desenvolvimento web</h3><p>Sites rápidos, que abrem bem no celular e carregam sem travar, prontos para aparecer no Google.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AVUS LAB ===================== -->
+  <section class="band on-dark" id="lab">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Avus Lab</span>
+        <h2 class="reveal" style="--d:.08s">Veja como o site do seu nicho ficaria.</h2>
+        <p class="lead reveal" style="--d:.16s">Demonstrações por segmento, no ar para você explorar. Escolha a que mais parece com o seu negócio.</p>
+      </div>
+      <div class="lab">
+        <a class="lab-card reveal" style="--d:0s" href="https://avuscafe.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">CAFÉ</span><img src="img/lab/cafe.png" alt="Prévia do Avus Café" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Café</b><span>Cafeterias e gastronomia</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:.08s" href="https://avusbeauty.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">BEAUTY</span><img src="img/lab/beauty.png" alt="Prévia do Avus Beauty" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Beauty</b><span>Estética e beleza</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:.16s" href="https://avusrealty.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">REALTY</span><img src="img/lab/realty.png" alt="Prévia do Avus Realty" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Realty</b><span>Imobiliárias e corretores</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:0s" href="https://avusink.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">INK</span><img src="img/lab/ink.png" alt="Prévia do Avus Ink" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Ink</b><span>Tatuagem e estúdios</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:.08s" href="https://avuslaw.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">LAW</span><img src="img/lab/law.png" alt="Prévia do Avus Law" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Law</b><span>Advocacia</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:.16s" href="https://avusfit.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">FIT</span><img src="img/lab/fit.png" alt="Prévia do Avus Fit" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Fit</b><span>Academias e personal</span><i>↗</i></div>
+        </a>
+        <a class="lab-card reveal" style="--d:0s" href="https://avusrazor.vercel.app/" target="_blank" rel="noopener">
+          <div class="thumb"><span class="mono">RAZOR</span><img src="img/lab/razor.png" alt="Prévia do Avus Razor" loading="lazy" onerror="this.remove()"></div>
+          <div class="lab-body"><b>Avus Razor</b><span>Barbearias</span><i>↗</i></div>
+        </a>
+      </div>
+      <div class="lab-note reveal">
+        <p>Seu segmento não está na lista? A gente monta do zero, com a sua identidade.</p>
+        <a class="btn btn-ghost-light" href="https://wa.me/5511957767799?text=Quero+um+site+para+o+meu+segmento" target="_blank" rel="noopener">Falar sobre o meu segmento <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PLANOS ===================== -->
+  <section class="band" id="planos">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Planos</span>
+        <h2 class="reveal" style="--d:.08s">Dois jeitos de começar.</h2>
+        <p class="lead reveal" style="--d:.16s">Site pronto para personalizar ou projeto feito do zero para a sua marca. Escolha o que cabe no seu momento.</p>
+      </div>
+      <div class="plans">
+        <div class="plan lab reveal" style="--d:0s">
+          <div>
+            <span class="eyebrow">Avus Lab</span>
+            <h3 style="margin-top:12px">Site pronto, com a sua cara.</h3>
+          </div>
+          <div class="price"><small>até</small><b>R$ 500</b></div>
+          <ul>
+            <li>Landing page, site institucional, loja e outros modelos do Lab</li>
+            <li>Seu logo, suas cores, fotos, textos e informações</li>
+            <li>Responsivo, abre bem no celular</li>
+          </ul>
+          <div class="maint"><span>Manutenção mensal</span><b>R$ 100/mês</b></div>
+          <a class="btn btn-green" href="https://wa.me/5511957767799?text=Quero+um+site+do+Avus+Lab" target="_blank" rel="noopener">Quero um site do Lab <span class="arr">↗</span></a>
+        </div>
+        <div class="plan sig reveal" style="--d:.12s">
+          <div>
+            <span class="eyebrow" style="color:var(--brg-bright)">Avus Signature</span>
+            <h3 style="margin-top:12px">Feito do zero para a sua marca.</h3>
+          </div>
+          <div class="price"><small>a partir de</small><b>R$ 1.500</b></div>
+          <ul>
+            <li>Projeto completo e sob medida</li>
+            <li>Design e identidade exclusivos para o seu negócio</li>
+            <li>Estratégia visual e foco em performance</li>
+          </ul>
+          <div class="maint"><span>Manutenção mensal</span><b>R$ 100/mês</b></div>
+          <a class="btn btn-white" href="https://wa.me/5511957767799?text=Quero+um+projeto+Signature" target="_blank" rel="noopener">Pedir orçamento Signature <span class="arr">↗</span></a>
+        </div>
+      </div>
+      <div class="focus-row reveal" style="--d:.1s">
+        <div><span class="eyebrow">Avus Focus</span><p>Estratégia visual e performance digital para marcas que querem crescer. +10 projetos, 100% design.</p></div>
+        <a class="btn btn-ghost" href="https://wa.me/5511957767799?text=Quero+entender+o+Focus" target="_blank" rel="noopener">Conhecer o Focus <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DESIGN PORTFOLIO (aparece só se as imagens existirem) ===================== -->
+  <section class="band" id="design" hidden>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Design portfolio</span>
+        <h2 class="reveal" style="--d:.08s">Identidades e explorações visuais.</h2>
+      </div>
+      <div class="gallery" id="gallery">
+        <figure class="reveal"><img src="design/design1.png" alt="Projeto de design 1"></figure>
+        <figure class="reveal" style="--d:.06s"><img src="design/design2.png" alt="Projeto de design 2"></figure>
+        <figure class="reveal" style="--d:.12s"><img src="design/design3.png" alt="Projeto de design 3"></figure>
+        <figure class="reveal"><img src="design/design4.JPG" alt="Projeto de design 4"></figure>
+        <figure class="reveal" style="--d:.06s"><img src="design/design5.jpg" alt="Projeto de design 5"></figure>
+        <figure class="reveal" style="--d:.12s"><img src="design/design6.png" alt="Projeto de design 6"></figure>
+        <figure class="reveal"><img src="design/design7.jpg" alt="Projeto de design 7"></figure>
+        <figure class="reveal" style="--d:.06s"><img src="design/design8.jpg" alt="Projeto de design 8"></figure>
+        <figure class="reveal" style="--d:.12s"><img src="design/design9.png" alt="Projeto de design 9"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESSO ===================== -->
+  <section class="band" id="processo" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Processo</span>
+        <h2 class="reveal" style="--d:.08s">Simples, direto e sem enrolação.</h2>
+        <p class="lead reveal" style="--d:.16s">Três etapas para tirar sua ideia do papel e colocar no ar.</p>
+      </div>
+      <div class="steps" id="steps">
+        <div class="step reveal" style="--d:.1s"><span class="n">ETAPA 1</span><h3>Entendimento</h3><p>Conversamos sobre seu objetivo, suas referências e a direção do projeto.</p></div>
+        <div class="step reveal" style="--d:.25s"><span class="n">ETAPA 2</span><h3>Construção</h3><p>Design e desenvolvimento com a sua identidade e foco em resultado.</p></div>
+        <div class="step reveal" style="--d:.4s"><span class="n">ETAPA 3</span><h3>Entrega</h3><p>Ajustes finais e publicação. Você recebe o projeto pronto para usar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEPOIMENTOS ===================== -->
+  <section class="band" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">Depoimentos</span>
+        <h2 class="reveal" style="--d:.08s">O que dizem sobre o trabalho.</h2>
+      </div>
+      <div class="quotes">
+        <blockquote class="quote reveal" style="--d:0s"><p>Excelente prestação de serviço! Entregas de alta qualidade, sempre dentro do prazo e com comunicação clara e ágil. Os resultados superaram as expectativas e o custo-benefício é ótimo. Recomendo totalmente!</p><footer><i>1</i>Sabrina Libório</footer></blockquote>
+        <blockquote class="quote reveal" style="--d:.1s"><p>Ótima empresa de marketing digital, fiz um site com eles e adorei, fora as estratégias que ele usa para dar mais visibilidade 🤩</p><footer><i>2</i>Larissa Mendes</footer></blockquote>
+        <blockquote class="quote reveal" style="--d:.2s"><p>Uma empresa excepcional, que entrega resultados com impacto real. Sempre comprometida com prazos e com uma comunicação clara, objetiva e muito eficiente.</p><footer><i>3</i>Cristiano Stavarengo</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="band on-green" id="contato">
+    <div class="wrap cta">
+      <span class="eyebrow reveal">Vamos construir algo?</span>
+      <h2 class="reveal" style="--d:.08s">Sua marca pode ser muito mais do que é hoje.</h2>
+      <p class="reveal" style="--d:.16s">Conte a ideia pelo WhatsApp e receba um caminho claro para colocar seu negócio no ar do jeito que ele merece.</p>
+      <div class="row reveal" style="--d:.24s">
+        <a class="btn btn-white pulse" href="https://wa.me/5511957767799?text=Ol%C3%A1!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20entender%20como%20podemos%20trabalhar%20juntos." target="_blank" rel="noopener">Chamar no WhatsApp <span class="arr">↗</span></a>
+        <button class="phone" id="copyPhone" type="button" aria-label="Copiar número de WhatsApp"><span id="phoneText">(11) 95776-7799</span><span aria-hidden="true">⧉</span></button>
+      </div>
+      <span class="small reveal" style="--d:.32s">Resposta rápida • Projetos selecionados • Vagas limitadas</span>
+    </div>
+  </section>
+</main>
+
+<div class="check" aria-hidden="true"></div>
+<footer class="site">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Avus Digital. Design, branding e web.</span>
+    <nav aria-label="Rodapé"><a href="#inicio">Início</a><a href="#cases">Cases</a><a href="#lab">Lab</a><a href="#contato">Contato</a></nav>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
