@@ -1,48 +1,79 @@
-# Avus Digital, portfólio
+# AVUS DIGITAL — Portfólio Institucional
 
-Site estático (HTML, CSS com Tailwind e JS puro).
+**Tecnologia, estratégia e presença digital.**
 
-## Estrutura
+Plataforma institucional desenvolvida para apresentar a Avus Digital, seus serviços, projetos realizados e soluções digitais, consolidando a identidade da agência e sua presença no mercado.
 
-```
-index.html            página
-src/input.css         fonte dos estilos (Tailwind + componentes do portfólio)
-css/style.css         CSS gerado (é este que o site carrega)
-js/main.js            animações, scroll, contadores, galeria
-tailwind.config.js    cores, fontes e easing da marca
-img/cases/            prints dos projetos reais
-img/lab/              prints dos projetos do Avus Lab
-design/               galeria Design Portfolio (design1 a design9)
-```
+🌐 **Acesse o site:** [avusdigital.vercel.app](https://avusdigital.vercel.app/)
 
-## Rodando
+---
 
-```
-npm install
-npm run dev     # recompila o CSS enquanto você edita
-npm run build   # gera o css/style.css minificado
-```
+## Sobre o projeto
 
-O `css/style.css` que vem no projeto é uma versão pré-gerada SEM o Tailwind (reset simples + os componentes do portfólio), então dá pra abrir o `index.html` e ver o site sem rodar nada.
-Rode `npm install && npm run build` uma vez para gerar a versão oficial com Tailwind (ela sobrescreve esse arquivo).
-Depois disso, sempre que mexer no `src/input.css` ou usar classes novas do Tailwind no HTML, rode o `npm run build` (ou deixe o `npm run dev` ligado).
+O site da Avus Digital é a principal vitrine institucional da agência, desenvolvido para apresentar seu posicionamento, portfólio e capacidades em tecnologia, design e marketing digital.
 
-## Cores da marca (disponíveis como classes do Tailwind)
+A plataforma foi concebida para transmitir uma identidade visual sofisticada, moderna e alinhada ao universo premium, combinando apresentação comercial, conteúdo visual e navegação intuitiva.
 
-`bianco`, `bianco-pure`, `nero`, `brg`, `brg-bright`, `brg-tint`, `muted`.
-Exemplo: `class="bg-brg text-bianco"`.
+Mais do que um portfólio, o projeto funciona como um canal de posicionamento e prospecção, conectando potenciais clientes às soluções oferecidas pela agência.
 
-## Fotos
+## Serviços apresentados
 
-Nomes esperados (se a foto não existir, o card mostra o monograma):
+- **Desenvolvimento Web:** criação de sites institucionais, landing pages e plataformas digitais.
+- **Sistemas e Aplicações:** desenvolvimento de soluções personalizadas para necessidades empresariais.
+- **Marketing Digital:** estratégias de presença digital, aquisição de clientes e performance.
+- **Tráfego Pago:** campanhas e estratégias de aquisição por meio de plataformas de anúncios.
+- **Identidade Visual:** construção de marcas e elementos de comunicação visual.
+- **Automação:** soluções para otimização de processos e operações digitais.
 
-- `img/cases/`: `lhl.jpg`, `b1.jpg`, `oceans.jpg`, `vg.jpg`, `gpfilms.jpg`
-- `img/lab/`: `cafe.jpg`, `beauty.jpg`, `realty.jpg`, `ink.jpg`, `law.jpg`, `fit.jpg`, `razor.jpg`
-- `design/`: `design1.png` a `design9.png` (a seção só aparece se as imagens existirem)
+## Funcionalidades e recursos
 
-Prints em proporção 16:10 (ex.: 1600x1000) ficam melhores.
+- **Apresentação institucional:** posicionamento, identidade e proposta de valor da agência.
+- **Portfólio de projetos:** exposição de trabalhos desenvolvidos e soluções entregues.
+- **Galeria visual:** apresentação de projetos de design e experimentações criativas.
+- **Avus Lab:** espaço dedicado a conceitos, estudos e projetos experimentais.
+- **Apresentação de serviços:** organização das soluções oferecidas pela agência.
+- **Navegação interativa:** experiência fluida com transições e animações.
+- **Elementos dinâmicos:** contadores, efeitos de rolagem e interações visuais.
+- **Conversão comercial:** direcionamento dos visitantes aos canais de contato.
 
-## Publicar na Vercel
+## Identidade visual
 
-Suba a pasta inteira. Como o `css/style.css` já está gerado, não precisa de build.
-Se preferir buildar lá: Build Command `npm run build` e Output Directory `.`.
+A identidade visual utiliza uma linguagem inspirada no design automotivo premium, com uma combinação de minimalismo, contraste e sofisticação.
+
+**Paleta institucional:**
+
+| Cor | Identidade |
+|---|---|
+| Nero Daytona | Preto profundo e sofisticado |
+| Bianco Avus | Branco e tons claros |
+| British Racing Green | Verde escuro característico |
+| British Racing Green Bright | Variação de destaque |
+
+A composição visual prioriza tipografia marcante, espaços bem distribuídos, elementos minimalistas e animações sutis.
+
+## Tecnologias utilizadas
+
+| Tecnologia | Aplicação |
+|---|---|
+| HTML5 | Estrutura e organização do conteúdo |
+| CSS3 | Estilização e apresentação visual |
+| JavaScript | Interatividade e funcionalidades dinâmicas |
+| Tailwind CSS 3 | Sistema de estilização e componentes |
+| Vercel | Hospedagem e publicação |
+
+## Desenvolvimento
+
+**Projeto desenvolvido pela própria Avus Digital.**
+
+Concepção, identidade visual, arquitetura da interface, desenvolvimento frontend, implementação das interações e estruturação do portfólio institucional.
+
+---
+
+<p align="center">
+  **AVUS DIGITAL**
+  <br />
+  Tecnologia, estratégia e presença digital.
+  <br />
+  <a href="https://avusdigital.vercel.app/">Website</a> ·
+  <a href="https://github.com/AvusDigital">GitHub</a>
+</p>
