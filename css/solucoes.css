@@ -1,0 +1,42 @@
+/* Soluções Avus: estilos isolados (não alteram o style.css). Usa o verde da marca se existir --brg-bright. */
+#solucoes .sol-grid { display: grid; gap: 20px; margin-top: 40px; grid-template-columns: 1fr; }
+@media (min-width: 760px) { #solucoes .sol-grid { grid-template-columns: repeat(2, 1fr); } }
+
+#solucoes .sol-card {
+  display: flex; flex-direction: column; padding: 28px; border-radius: 20px;
+  background: #0C0D0E; color: #F3F3EE; border: 1px solid rgba(255, 255, 255, .08);
+}
+#solucoes .sol-card:has(input:checked) { border-color: var(--brg-bright, #3DBB7E); box-shadow: 0 0 0 1px var(--brg-bright, #3DBB7E); }
+
+#solucoes .sol-top { display: flex; align-items: flex-start; justify-content: space-between; }
+#solucoes .sol-n { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: .8rem; letter-spacing: .12em; color: rgba(243, 243, 238, .5); }
+#solucoes .sol-ico {
+  display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px;
+  background: rgba(61, 187, 126, .14); color: var(--brg-bright, #3DBB7E);
+}
+
+#solucoes .sol-card h3 { margin: 22px 0 0; font-size: 1.5rem; line-height: 1.15; color: #F3F3EE; }
+#solucoes .sol-card p { margin: 12px 0 0; color: rgba(243, 243, 238, .72); line-height: 1.55; }
+
+#solucoes .sol-list { list-style: none; margin: 22px 0 0; padding: 20px 0 0; border-top: 1px solid rgba(255, 255, 255, .1); }
+#solucoes .sol-list li { position: relative; margin: 0 0 10px; padding-left: 20px; font-size: .92rem; line-height: 1.45; color: rgba(243, 243, 238, .86); }
+#solucoes .sol-list li::before { content: ""; position: absolute; left: 0; top: .5em; width: 8px; height: 8px; border-radius: 2px; background: var(--brg-bright, #3DBB7E); }
+
+#solucoes .sol-chip {
+  display: inline-flex; align-items: center; gap: 10px; align-self: flex-start; margin-top: auto;
+  padding: 10px 16px; border: 1px solid rgba(255, 255, 255, .28); border-radius: 999px;
+  font-weight: 600; font-size: .9rem; color: #F3F3EE; cursor: pointer;
+}
+#solucoes .sol-list + .sol-chip { margin-top: 18px; }
+#solucoes .sol-chip input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; }
+#solucoes .sol-chip:has(input:checked) { background: var(--brg-bright, #3DBB7E); border-color: var(--brg-bright, #3DBB7E); color: #0C0D0E; }
+#solucoes .sol-chip:has(input:focus-visible) { outline: 2px solid #fff; outline-offset: 3px; }
+#solucoes .sol-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+#solucoes .sol-cta {
+  display: flex; flex-direction: column; gap: 20px; margin-top: 32px; padding: 28px;
+  border: 1px solid rgba(12, 13, 14, .14); border-radius: 20px;
+}
+@media (min-width: 760px) { #solucoes .sol-cta { flex-direction: row; align-items: center; justify-content: space-between; } }
+#solucoes .sol-cta-t { margin: 0; max-width: 34ch; font-size: 1.25rem; font-weight: 700; line-height: 1.25; }
+#solucoes .sol-count { margin: 8px 0 0; font-size: .9rem; opacity: .65; }
